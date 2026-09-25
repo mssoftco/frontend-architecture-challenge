@@ -1,0 +1,32 @@
+{
+  "name": "@platform/auth",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./client": "./src/client.ts",
+    "./server": "./src/server.ts",
+    "./types": "./src/types.ts"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@platform/http": "workspace:*",
+    "server-only": "^0.0.1",
+    "zod": "^4.6.5"
+  },
+  "peerDependencies": {
+    "next": "16.3.6"
+  },
+  "devDependencies": {
+    "@platform/eslint-config": "workspace:*",
+    "@platform/typescript-config": "workspace:*",
+    "@types/node": "^24.5.2",
+    "@types/react": "^19.2.2",
+    "eslint": "^9.39.1",
+    "next": "16.3.6",
+    "typescript": "^5.9.3"
+  }
+}

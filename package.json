@@ -1,0 +1,16 @@
+{
+  "name": "frontend-architecture-challenge",
+  "private": true,
+  "packageManager": "pnpm@11.2.2",
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "lint": "turbo lint",
+    "typecheck": "turbo typecheck",
+    "test": "turbo test"
+  },
+  "devDependencies": {
+    "turbo": "^2.8.10",
+    "prettier": "^3.6.2"
+  }
+}
